@@ -1,0 +1,1651 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:300px)
+{
+    .header
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header .box-1,.header .box-2,.header .box-3
+    {
+        width: 100%;
+    }
+    .header .box-1 a,.header .box-2,.header .box-3 a
+    {
+        font-size: small;
+        margin-right:20px;
+    }
+    .header .box-3 a
+    {
+        font-size:10px;
+        text-decoration: none;
+    }
+    .section
+    {
+        background-size:40% 40%;
+        background-repeat: no-repeat;
+        margin-top: 300px;
+    }
+    /* .section .writing h1
+    {
+        font-size:smaller;
+        width:auto;
+        margin-top: -190px;
+        padding: 10px;
+       text-align:center;
+        margin-left: -750px;
+    }
+    .section .writing span
+    {
+        font-size:20px;
+        width: 100%;
+        margin-top: -250px;
+        margin-left: -450px;
+        font-size:large;
+        padding: 10px;
+        text-align: center;
+    } */
+  
+    .reservation
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .reservation input[type="text"]
+    {
+        margin-left: 0px;
+       width: 500px;
+        margin-top: 10px;
+    }
+    .reservation input[type="email"]
+    {
+        margin-top:20px;
+        margin-left:0px;
+        width:500px;
+       
+    }
+    .reservation-1
+    {
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width:500px;
+        margin-top: 10px;
+        margin-left: 0px;
+        /* margin-right: 10px; */
+    }
+    .reservation-1 input[type="tel"]
+    {
+        height: 30px;
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .reservation-2 input[type="text"]
+    {
+        height: 170px;
+        width: 770px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .article h1
+    {
+        font-size: small;
+    }
+    .slider .content h1
+    {
+        margin-left: 20px;
+        font-size:20px;
+    }   
+    
+    .slider .content p
+    {
+        margin-left: 0px;
+        font-size:15px;
+    }
+    .slider .images img
+    {
+        width: 100%;
+    }
+    
+    .wedding .rectangle-1
+    {
+        margin-left:20px;
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        width: 500px;
+   }
+    .wedding .rectangle-2
+    {
+        margin: 0px 0px;
+        width: 550px;
+    }
+    .wedding .rectangle-2 p
+    {
+        font-size:10px;
+        margin-left:-120px;
+    }
+    .wedding .rectangle-2 h3
+    {
+        margin-left:20px; 
+    }
+    .wedding .rectangle-2 h4
+    {
+        margin-left: 20px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 450px;
+        margin-left:10px;
+        margin-top: 550px;
+        background-size: 60% 60%;
+        background-repeat: no-repeat;
+    }
+    .wedding-party .rectangle-3
+    {
+        /* margin: -800px 20px; */
+        margin-top: -800px;
+        margin-left: 10px;
+        width: 450px;
+    }
+    .wedding-party .rectangle-3 h2
+   {
+      margin-left: 30px;
+   }
+    .wedding-party .rectangle-3 p
+    {
+        margin-left: -140px;
+        font-size:10px;
+    }
+    .wedding-party .rectangle-3 h3
+    {
+        margin-left: 30px;
+    }
+    .wedding-party .rectangle-3 h4
+    {
+        margin-left: 30px;
+    }
+    .wedding-party
+    {
+        margin-top: 300px;
+    }
+    .content-1
+    {
+        font-size:smaller;
+    }
+   
+.aside-1 .write .images-2 img
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+.aside-1 .write
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-color: red;
+}
+.define .write-2
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.img-gallery .images-4
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery .images-5
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery .images-6
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery .images-4 img
+{
+    width: 100%;
+}
+.img-gallery .images-5 img
+{
+    width: 100%;
+}
+.img-gallery .images-6 img
+{
+    width: 100%;
+}
+.content-2
+{
+    background-color: cadetblue;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.content-2 .header-3,.header-4,.header-5
+{
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.table-1 .column
+{
+    height: 40px;
+    width: 160%;
+    border-bottom:2px solid black; 
+    background-color:cadetblue;
+    margin-left: 20px;
+}  
+.table-1 .column ul li.Countries
+{
+    width: 30%;
+    background-color: cornflowerblue;
+}
+.aside-2 .write-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #c931ff;
+}
+.aside-2 .write-1 p
+{
+    width: 100%;
+}
+.aside-2 .write-1 img
+{
+    width: 100%;
+}
+.form
+{
+    background-color: aqua;
+    margin-top: 100px;
+    
+    display: flex;
+   
+}
+.anniversary .box-4 h1
+{
+    font-size: smaller;
+}
+.anniversary .box-4
+{
+    margin-right: 20px;
+}
+}
+
+@media(min-width:300px) and (max-width:500px)
+{
+    .form
+{
+    background-color: aqua;
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+.anniversary img
+{
+    display:none;
+}
+.content-1 h1
+ {
+    margin-left:10px;
+ }
+ .content-1 p
+ {
+    margin-left:10px;
+ }
+ .aside .bride
+    {
+        width: 100%;
+    }
+    .aside .image-1
+    {
+        width: 100%;
+    }
+    .aside
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(min-width:500px)
+{
+    .header
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header .box-1,.header .box-2,.header .box-3
+    {
+        width: 100%;
+    }
+    .header .box-3 a
+    {
+        font-size:20px;
+        text-decoration: none;
+    }
+    .section
+    {
+        background-size:50% 50%;
+        background-repeat: no-repeat;
+        /* margin-top: 500px; */
+    }
+    /* .section .writing h1
+    {
+        font-size: 20px;
+        width:auto;
+        margin-top: -150px;
+        padding: 10px;
+        text-align: center;
+        margin-left: -570px;
+    }
+    .section .writing span
+    {
+        font-size:20px;
+        width: 100%;
+        margin-top: -200px;
+        margin-left: -350px;
+        font-size: large;
+        padding: 10px;
+        text-align: center;
+    } */
+    /* .section
+    {
+        padding: 300px 100px;
+    } */
+   
+    .article h1
+    {
+        font-size: small;
+    }
+    .slider .content h1
+    {
+        margin-left: 50px;
+        font-size:30px;
+    }   
+    
+    .slider .content p
+    {
+        margin-left: 50px;
+        font-size:13px;
+    }
+    .slider .images img
+    {
+        width: 100%;
+    }
+    
+    .wedding .rectangle-1
+    {
+        margin-left:0px;
+        background-size: 100% 100%;
+        width: 500px;
+   }
+    .wedding .rectangle-2
+    {
+        margin: 0px 0px;
+        width: 650px;
+    }
+    .wedding .rectangle-2 p
+    {
+        font-size:15px;
+        margin-left:-100px;
+    }
+    .wedding .rectangle-2 h3
+    {
+        margin-left:78px; 
+    }
+    .wedding .rectangle-2 h4
+    {
+        margin-left: 78px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 450px;
+        margin-left:10px;
+        margin-top: 650px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 500px;
+        margin-left:10px;
+        margin-top: 550px;
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
+    }
+    .wedding-party .rectangle-3
+    {
+        margin: -800px 20px;
+        width: 450px;
+    }
+    .wedding-party
+    {
+        margin-top: 300px;
+    }
+    .content-1
+    {
+        font-size:smaller;
+    }
+    .reservation
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .reservation input[type="text"]
+    {
+        margin-left: 80px;
+       width: 500px;
+        margin-top: 10px;
+    }
+    .reservation input[type="email"]
+    {
+        margin-top:40px;
+        margin-left:80px;
+        width:500px;
+       
+    }
+    .reservation-1
+    {
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width:500px;
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-right: 10px;
+    }
+    .reservation-1 input[type="tel"]
+    {
+        height: 30px;
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    .reservation-2 input[type="text"]
+    {
+        height: 170px;
+        width: 770px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+ 
+.table-1 .column ul li.Countries
+{
+    width: 20%;
+    background-color: cornflowerblue;
+}
+    /* .article-1 .button a.Disable
+    {
+      
+      position: absolute;
+      top: 1850px;
+      left:400px;
+    }
+    .article-1 .button a.Link
+    {
+        position: absolute;
+        top: 1850px;
+        left:300px;
+    }
+     .article-1 .button a.Danger
+    {
+        position: absolute;
+        top: 1850px;
+        padding: -10px -10px;
+        left: 170px;
+
+    } 
+    .article-1 .button a.warning
+    {
+        position: absolute;
+        top: 1850px;
+        padding: -10px -10px;
+        left: 50px;
+
+    } 
+    .article-1 .button a.Info
+{
+    background-color:#38a4ff;
+    margin-left: -30px;
+    position: absolute;
+    top: 1780px;
+    left: 420px;
+}
+.article-1 .button a.Success
+    {
+        position: absolute;
+        top: 1780px;
+        left: 280px;
+    } 
+    /* .article-1 .button a
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    } */
+/* .article-1 .button a.default
+{
+    margin-right: 10px;
+} */ */
+.article-1
+{
+   background-color: darkcyan;
+   margin-top: 10px;
+  
+   display: flex;
+   flex-wrap: wrap;
+}
+/* .article-1 .button-1
+{
+   height: auto;
+   width: 50%;   
+   background-color: #c931ff;
+   margin-left: 360px;
+} */
+.article-1 .button
+{
+   /* height: 100%;
+   width: 100%; */
+    /* margin-top: 50px;
+    margin-left: 30px; */
+    height:200px;
+  width:300px;
+
+ 
+  
+}
+.article-1 .button-1
+{
+   height: auto;
+   width:100%;
+   background-color: #c931ff;
+   height:200px;
+   width:300px;
+   
+   
+   /* margin-left: 80px; */
+}
+.aside-1 .write .images-2 img
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+.aside-1 .write
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-color: red;
+}
+
+
+.define .write-2
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.aside-2 .write-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #c931ff;
+}
+.aside-2 .write-1 p
+{
+    width: 100%;
+}
+.aside-2 .write-1 img
+{
+    width: 100%;
+}
+.form
+{
+    background-color: aqua;
+    margin-top: 100px;
+   
+    display: flex;
+    
+}
+.anniversary img
+{
+    display:none;
+}
+.anniversary .box-4 h1
+{
+    font-size: smaller;
+}
+}
+@media(min-width:700px)
+{ 
+    .header
+    {
+        display: flex;
+        width: 100%;
+    }
+    .header .box-1
+    {
+        width:40%;
+    }
+    .header .box-1 a
+    {
+        margin-right: 5px;
+        text-decoration: none;
+    }
+    .header .box-2
+    {
+        width: 20%;
+        margin-right: 0px;
+    }
+    .header .box-3
+    {
+        width: 40%;
+    }
+    .header .box-3 a
+    {
+        font-size:10px;
+        margin-right: 15px;
+    }
+    /* .section
+    {
+        padding: 300px 200px;
+    } */
+    .aside .bride
+    {
+        width: 50%;
+    }
+    .aside .image-1
+    {
+        width: 50%;
+    }
+    .aside
+    {
+        display: flex;
+    }
+    .article h1
+    {
+        font-size: small;
+    }
+    .slider .content h1
+    {
+        margin-left: 100px;
+        font-size:30px;
+    }
+    .slider .content p
+    {
+        margin-left: 100px;
+        font-size:15px;
+    }
+    .slider .images img
+    {
+        width: 50%;
+    }
+    
+    .wedding .rectangle-1
+    {
+        margin-left:0px;
+        background-size: 100% 100%;
+        width: 700px;
+   }
+    .wedding .rectangle-2
+    {
+        margin: 0px 0px;
+        width: 700px;
+    }
+    .wedding .rectangle-2 h3
+    {
+        margin-left:98px; 
+    }
+    .wedding .rectangle-2 h4
+    {
+        margin-left: 98px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 650px;
+        margin-left:10px;
+        margin-top: 500px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 500px;
+        margin-left:10px;
+        margin-top: 550px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .wedding-party .rectangle-3
+    {
+        margin: -800px 20px;
+        width: 500px;
+    }
+    .wedding-party
+    {
+        margin-top: 400px;
+    }
+    .header-1 .list-3 a
+    {
+        margin-right: 10px;
+        font-size:smaller;
+    }
+    .content-1
+    {
+        font-size:smaller;
+    }
+    .reservation
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .reservation input[type="text"]
+    {
+        margin-left: 80px;
+       width: 500px;
+        margin-top: 10px;
+    }
+    .reservation input[type="email"]
+    {
+        margin-top:40px;
+        margin-left:80px;
+        width:500px;
+       
+    }
+    .reservation-1
+    {
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width:500px;
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-right: 10px;
+    }
+    .reservation-1 input[type="tel"]
+    {
+        height: 30px;
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    .reservation-2 input[type="text"]
+    {
+        height: 170px;
+        width: 770px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section
+    {
+        background-size:70% 70%;
+        background-repeat: no-repeat;
+    }
+    /* .section .writing h1
+    {
+        font-size: 20px;
+        width:auto;
+        margin-top: -90px;
+        padding: 20px;
+        text-align: center;
+        margin-left: -370px;
+    }
+    .section .writing span
+    {
+        font-size:20px;
+        width: 100%;
+        margin-top: -200px;
+        margin-left: -250px;
+        font-size: smaller;
+        padding: 20px;
+        text-align: center;
+    } */
+    .article-1
+{
+   background-color: darkcyan;
+   margin-top: 100px;
+   height:auto;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.article-1 .button
+{
+   /* height: 100%;
+   width: 100%; */
+    margin-top: 50px;
+    margin-left: 30px;
+    height: auto;
+    width: 80%;
+
+ 
+  
+}
+.article-1 .button-1
+{
+   height: auto;
+   width: 80%;   
+   background-color: #c931ff;
+   margin-left: 80px;
+}
+.aside-1 .write .images-2 img
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+.aside-1 .write
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-color: red;
+}
+
+.define .write-2
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.img-gallery .images-4
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery .images-5
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery .images-6
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallery .images-4 img
+{
+    width: 100%;
+}
+.img-gallery .images-5 img
+{
+    width: 100%;
+}
+.img-gallery .images-6 img
+{
+    width: 100%;
+} 
+
+.table-1 .column
+{
+    height: 40px;
+    width: 150%;
+    border-bottom:2px solid black; 
+    background-color:cadetblue;
+    margin-left: 20px;
+}  
+.aside-2 .write-1
+{
+    display: flex;
+    width: 100%;
+    background-color: #c931ff;
+}
+.aside-2 .write-1 p
+{
+    width: 70%;
+}
+.aside-2 .write-1 img
+{
+    width: 30%;
+}
+.form
+{
+    background-color: aqua;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+   
+}
+.form .info
+{
+    margin-left: 20px;
+    background-color: chartreuse;
+    width: 60%;
+}
+.form .tick
+{
+    margin-left: 20px;
+    width: 40%;
+}
+.anniversary .box-4
+{
+    margin-top: 180px;
+}
+.anniversary .box-4 h1
+{
+    font-size: smaller;
+}
+.anniversary img
+{
+    display: block;
+}
+/* .form
+{
+    background-color: aqua;
+    margin-top: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+} */
+
+    /* .article-1 .button a.Disable
+    {
+      
+      position: absolute;
+      top: 1770px;
+      left:460px;
+    }
+    .article-1 .button a.Link
+    {
+        position: absolute;
+        top: 1770px;
+        left:330px;
+    }
+     .article-1 .button a.Danger
+    {
+        position: absolute;
+        top: 1770px;
+        padding: -10px -10px;
+        left: 170px;
+
+    } 
+    .article-1 .button a.warning
+    {
+        position: absolute;
+        top: 1770px;
+        padding: -10px -10px;
+        left: 50px;
+
+    } 
+    .article-1 .button a.Info
+    {
+        background-color:#38a4ff;
+        margin-left: -30px;
+        position: absolute;
+        top: 1670px;
+        left: 420px;
+    }
+    .article-1 .button a.Success
+        {
+            position: absolute;
+            top: 1670px;
+            left: 280px;
+        } */
+        /* .article .button a
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        } */
+
+}
+
+@media(min-width:900px)
+{
+    .header
+    {
+        display: flex;
+        width: 100%;
+    }
+    .header .box-1
+    {
+        width:40%;
+    }
+    .header .box-1 a
+    {
+        margin-right: 5px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .header .box-2
+    {
+        width: 20%;
+        margin-right: 0px;
+    }
+    .header .box-3
+    {
+        width: 40%;
+    }
+    .header .box-3 a
+    {
+        font-size:15px;
+        margin-right: 15px;
+    }
+    /* .section
+    {
+        padding: 300px 300px;
+     }  */
+    
+     /* .section .writing h1
+     {
+         font-size: 20px;
+         width:auto;
+         margin:30px auto;
+         padding: 20px;
+         text-align: center;
+         margin-left: -200px;
+     }
+     .section .writing span
+     {
+         font-size:20px;
+         width: 100%;
+         margin: 20px auto;
+         margin-left: -250px;
+         font-size: smaller;
+         padding: 20px;
+         text-align: center;
+     } */
+    .article h1
+    {
+        font-size:medium;
+    }
+    .anniversary .box-4 h1
+{
+    font-size:larger;
+}
+    
+    .wedding .rectangle-1
+    {
+        margin-left:90px;
+        background-size: 100% 100%;
+        width: 400px;
+   }
+   .wedding .rectangle-2
+    {
+        margin-left: 440px;
+        width: 600px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 850px;
+        margin-left:10px;
+        margin-top: 650px;
+    }
+    .wedding-party .rectangle-3
+    {
+        margin: -800px 20px;
+        width: 850px;
+    }
+    .header .box-1 a
+    {
+        margin-right:20px;
+    }
+    .header .box-3 a
+    {
+        margin-right:10px;
+     }
+    .slider .images img
+    {
+        width: 16.66%;
+    }
+    .content-1
+    {
+        font-size:smaller;
+    }
+    .reservation
+    {
+        display:flex;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .reservation-1
+    {
+        display:flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .reservation input[type="text"]
+    {
+        margin-left: 50px;
+        height: 30px;
+        width: 340px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width: 340px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .reservation input[type="email"]
+    {
+        height: 30px;
+        width: 330px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .reservation-1 input[type="tel"]
+    {
+        height: 30px;
+        width: 340px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .table-1 .column
+{
+    height: 40px;
+    width: 80%;
+    border-bottom:2px solid black; 
+    background-color:cadetblue;
+    margin-left: 20px;
+}
+    /* .article-1 .button a.Disable
+    {
+      
+      position: absolute;
+      top: 1770px;
+      left:320px;
+    }
+    .article-1 .button a.Link
+    {
+        position: absolute;
+        top: 1770px;
+        left:180px;
+    }
+     .article-1 .button a.Danger
+    {
+        position: absolute;
+        top: 1770px;
+        padding: -10px -10px;
+        left: 50px;
+
+    }  */
+    .aside-1 .write .images-2 img
+{
+    height: 70%;
+    width: 70%;
+}
+
+.define .write-2
+{
+    display: flex;
+   
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.define .write-2 .define-1
+{
+    width: 33.33%;
+}
+.define .write-2 .define-2
+{
+    width: 33.33%;
+}
+.define .write-2 .define-3
+{
+    width: 33.33%;
+}
+.img-gallery .images-4
+{
+    display: flex;
+    
+}
+.img-gallery .images-5
+{
+    display: flex;
+}
+.img-gallery .images-6
+{
+    display: flex;
+}
+ .img-gallery .images-4 img
+{
+    width: 33.33%;
+}
+.img-gallery .images-5 img
+{
+    width: 50%;
+}
+.img-gallery .images-6 img
+{
+    width: 33.33%;
+} 
+.content-2
+{
+    background-color: cadetblue;
+    width: auto;
+    display: flex;
+    margin-top: 100px;
+}
+.content-2 .header-3,.header-4,.header-5
+{
+    width: 33.33%;
+    background-color: chartreuse;
+}
+
+}
+@media(min-width:1000px)
+{
+    
+    .slider .content h1
+    {
+        margin-left: 200px;
+        font-size:36px;
+    } 
+    .slider .content p
+    {
+        margin-left: 200px;
+        font-size:15px;
+    }
+    .wedding .rectangle-1
+    {
+        margin-left:100px;
+        background-size: 100% 100%;
+        width: 500px;
+   }
+   .wedding .rectangle-2
+    {
+        margin-left: 540px;
+        width: 600px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 950px;
+        margin-left:10px;
+        margin-top: 650px;
+    }
+    .wedding-party .rectangle-3
+    {
+        margin: -800px 20px;
+        width: 900px;
+    }
+    .header-1 .list-1 a
+    {
+        margin-right: 35px;
+        font-size: small;
+    }
+    .header-1 .list-3 a
+    {
+        font-size: small;
+        margin-right: 20px;
+    }
+    .header .box-1 a
+    {
+        margin-right: 30px;
+    }
+    .header .box-3 a
+    {
+        margin-right: 20px;
+    }
+    .slider .images img
+    {
+        width: 16.66%;
+    }
+   
+    .content-1
+    {
+        font-size:smaller;
+        line-break: auto;
+    }
+    .reservation input[type="text"]
+    {
+        margin-left: 180px;
+        height: 30px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .reservation input[type="email"]
+    {
+        height: 30px;
+        width: 300px;
+        margin-top: -30px;
+        margin-left: 580px;
+    }
+    .reservation
+    {
+        display:flex;
+        width: 100%;
+        margin-top: 59px;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width: 340px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+    .define .write-2
+{
+    display: flex;
+   
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.define .write-2 .define-1
+{
+    width: 33.33%;
+}
+.define .write-2 .define-2
+{
+    width: 33.33%;
+}
+.define .write-2 .define-3
+{
+    width: 33.33%;
+}
+    /* .article-1 .button a
+    {
+        margin-right: 40px;
+    } */
+    
+    /* .reservation input[type="text"], .reservation-1 input[type="search"],.reservation-2 input[type="text"]
+    {
+        margin-left: 200px;
+    } */
+    .article-1
+ {
+    background-color: darkcyan;
+    margin-top: 100px;
+    height:auto;
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+}
+.article-1 .button-1
+{
+    height: auto;
+    width: 50%;   
+    background-color: #c931ff;
+    margin-left: 360px;
+}
+.aside-1 .write .images-2 img
+{
+    height: 70%;
+    width: 70%;
+}
+.table-1 nav ul li.Countries
+{
+    width: 60%;
+    margin-right: 70px;
+}
+.table-1 nav ul li.x
+{
+    overflow: hidden;
+}
+.table-1 nav
+{
+    width: 20%;
+}
+.anniversary .box-4
+{
+    margin-top: 280px;
+}
+
+}
+@media(min-width:1100px)
+{
+    /* .section
+    {
+        padding: 300px 400px;
+    } */
+    .section
+    {
+        background-size: 100% 100%;
+    }
+    /* .section .writing h1
+    {
+        font-size: 20px;
+        width:auto;
+        margin:30px auto;
+        padding: 20px;
+        text-align: center;
+        margin-left: -200px;
+    }
+    .section .writing span
+    {
+        font-size:20px;
+        width: 100%;
+        margin: 20px auto;
+        margin-left: -250px;
+        font-size: smaller;
+        padding: 20px;
+        text-align: center;
+    } */
+    .article
+    {
+        background-size:100% 110%;
+        
+    }
+    .slider .content h1
+    {
+        margin-left: 200px;
+        font-size:36px;
+    }
+    .slider .content p
+    {
+        margin-left: 200px;
+        font-size:15px;
+    }
+   
+    .wedding .rectangle-1
+    {
+        margin-left:100px;
+    }
+    .wedding .rectangle-2
+    {
+        margin-left: 620px;
+    }
+    .wedding-party .rectangle-4
+    {
+        width: 550px;
+        margin-left:530px;
+    }
+    .wedding-party .rectangle-3
+    {
+        margin-left: 0px;
+    }
+    .header-1 .list-1 a
+    {
+        margin-right: 40px;
+    }
+    .header
+    {
+        position: fixed;
+        top: 0;
+    }
+    .header .box-1 a
+    {
+        margin-right: 50px;
+    }
+    .header .box-3 a
+    {
+        margin-right: 30px;
+    }
+    .slider .images img
+    {
+        width: 16.66%;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width: 340px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-right: 140px;
+    }
+    .reservation-2 input[type="text"]
+    {
+        height: 170px;
+        width: 770px;
+        margin-left: 180px;
+        margin-top: 30px;
+    }
+    /* .article-1 .button a
+    {
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .article-1 .button a.Disable
+    {
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }  */
+    .aside-1 .write .images-2 img
+    {
+        height: 100%;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .aside-1 .write .para
+    {
+        margin-left: 20px;
+    }
+   
+    .table-1 nav ul li.Countries
+    {
+        width: 15%;
+        margin-right: 100px;
+    }
+    .table-1 nav
+    {
+        width: 70%;
+    }
+  
+}
+
+@media(min-width:1300px)
+{
+    /* .section .writing p
+    {
+        font-size: 30px;
+    }
+    .section .writing p
+{
+    
+    background-color:blue;
+    margin: 0px -50px;
+    color: #fff;
+    margin-left:-860px;
+    
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+}
+    .section .another p
+    {
+        font-size: 30px;
+    } */
+    /* .section
+    {
+        padding: 300px 500px;
+    } */
+    /* .section .writing span
+    {
+        font-size:20px;
+    } */
+    .slider .content h1
+    {
+        margin-left: 200px;
+    }
+    .slider .content p
+    {
+        margin-left: 200px;
+    }
+   
+    .wedding-party .rectangle-4
+    {
+        margin-left: 660px;
+    }
+    .wedding-party .rectangle-3
+    {
+        margin-left: 120px;
+    }
+    .header .box-1 a
+    {
+        margin-right: 50px;
+    }
+    .header-1 .list-1 a
+    {
+        margin-right: 50px;
+    }
+    .header-1 .list-3 a
+    {
+        margin-right: 30px;
+        font-size:small;
+    }
+    .slider .images img
+    {
+        width: 16.66%;
+    }
+    .reservation-1 input[type="search"]
+    {
+        height: 30px;
+        width: 340px;
+        margin-top: 10px;
+        margin-left: 180px;
+        margin-right: 240px;
+    }
+    .reservation input[type="email"]
+    {
+        height: 30px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+    
+  
+}

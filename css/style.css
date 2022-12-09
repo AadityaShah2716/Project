@@ -1,0 +1,876 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body
+{
+    height: 600vh;
+    overflow-x: hidden;
+}
+.header
+{
+    height:auto;
+    width:100%;
+    background-color:white;
+    display: flex;
+    
+}
+
+.header .box-1
+{
+    background-color:;
+    width: 40%;
+    height: 200px;
+  
+   padding: 20px;
+   
+}
+.header .box-1 a
+{
+    margin-right:80px;
+    color: #000;
+}
+
+.header .box-2
+{
+    background-color:;
+   
+    height: 200px;
+    width: 20%;
+    background-image: url(../images/logo.png.webp);
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+
+
+.header .box-3
+{
+    background-color:;
+    width: 40%;
+   padding:20px;
+   height: 200px;
+ 
+}
+.header .box-3 a
+{
+    margin-right: 40px;
+    color: #000;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+
+.section
+{
+    height: auto;
+    width: 100%;
+    background-color:;
+    
+    margin: 50px auto;
+   
+}
+.section .marry
+{
+    background-image: url(../images/header-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:600px;
+    width: 100%;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+   
+}
+.section .marry p
+{
+    color: white;
+    font-size:36px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+
+{
+    font-size: 36px;
+    line-height: 1.2em;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 600;
+
+}
+.aside .bride 
+{
+    text-align: center;
+}
+    
+.article
+{
+    background-image: url(../images/ads-bg.png);
+    background-size: 100% 100%;
+    height:200px;
+    width: 100%;
+    margin-top: 200px;
+    padding: 40px 40px;
+}
+.article h1
+{
+   color: azure;
+}
+.slider
+{
+    height:auto;
+    width: 100%;
+    background-color:;
+    margin-top: 200px;
+}
+.slider .content
+{
+    /* height: 200px; */
+    height: auto;
+    width: 100%;
+    background-color:;
+}
+.slider .content h1
+{
+     margin: 0px 400px; 
+     color: #222222;
+     font-size: 36px;
+     background-color:;
+     text-align: center;
+    
+}
+.slider .content p
+{
+    margin: 0px 400px;
+    color: azure;
+    font-size: 20px;
+    background-color: ;
+    width: 100%;
+}
+.images
+{
+    height: auto;
+    width: 100%;
+    background-color: ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.anniversary
+{
+    height:auto;
+    width: 100%;
+    background-color:;
+    margin-top: 105px;
+   display: flex;
+   margin-left: 0px;
+  
+  
+}
+.anniversary .box-4
+{
+    height: 100px;
+    width: 150px;
+   
+    background: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+    padding: 30px 0px;
+    background-clip: text;
+ margin-left: 10px;
+   margin-right: 30px;
+   margin-top: 380px;
+}
+
+
+    
+     .wedding
+     {
+        height:auto;
+        width: 100%;
+        background-color:;
+        margin-top: 100px;
+         padding-top:3px;
+     }
+     .wedding h1
+     {
+        font-size: 36px;
+         /* margin:100px 600px; */
+         margin-top: 10px;
+        background-color:;
+        width: 100%;
+        text-align: center;
+     }
+     .wedding p
+     {
+        width: 100%;
+        background-color:;
+        /* margin-left: 500px; */
+        margin-top: 30px;
+        text-align: center;
+        /* margin-left:600px; */
+     }
+     .wedding .rectangle-1
+     {
+        height: 400px;
+        width: 600px;
+        background-color:;
+        margin-left: 120px;
+        margin-top: 15px;
+        background-image: url(../images/info1.jpg);
+        background-size: 100% 100%;
+     }
+     .wedding .rectangle-2
+     {
+        height: 400px;
+        width: 600px;
+        background-color:;
+        margin-left: 650px;
+        margin-top: -300px;
+     }
+    .wedding .rectangle-2 h1
+     {
+        background-color:;
+         margin-left: -130px; 
+        width: 100%;
+        /* text-align: center; */
+       }
+     .wedding .rectangle-2 p
+     {
+        background-color:;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        /* text-align: center; */
+         margin-left: -65px;
+       
+     }
+     .wedding .rectangle-2 h2
+     {
+        background-color:;
+        text-align: center;
+        margin-bottom: 25px;
+        /* text-align: center; */
+         margin-left: -210px;
+        
+     }
+     .wedding .rectangle-2 h3
+     {
+        background-color:;
+        width: 100%;
+        margin-bottom: 25px;
+        /* text-align: center; */
+        margin-left: 50px; 
+     
+    }
+    .wedding .rectangle-2 h4
+    {
+        background-color:;
+        width: 100%;
+        margin-left:50px ;
+        /* text-align: center; */
+    }
+    .wedding-party
+    {
+        margin-top: 100px;
+        height:1000px;
+        width: 100%;
+        background-color:;
+        padding-top: 10px;
+
+    }
+    .wedding-party .rectangle-4
+    {
+        height:400px;
+        width: 600px;
+        background-color:;
+        background-image: url(../images/xinfo2.jpg.pagespeed.ic.g9lFAcYkeY.webp);
+        background-size: 100% 100%;
+        margin-left: 760px;
+        margin-top: 0px;
+       
+    }
+    .wedding-party .rectangle-3
+    {
+        height: 400px;
+        width: 600px;
+        background-color:white;
+        margin: -330px 230px;
+        padding-top: 50px;
+    }
+    .wedding-party .rectangle-3 h1
+    {
+       margin-left:40px;
+       margin-bottom: 20px;
+       background-color:;
+       width: 100%;
+    }
+    .wedding-party .rectangle-3 p
+    {
+        margin-left:50px;
+        color: #777777;
+         font-family: "Poppins", sans-serif;
+         font-size: 14px;
+         margin-bottom:20px;
+    }
+    .wedding-party .rectangle-3 h2
+    {
+        color: #000;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+    .wedding-party .rectangle-3 h3
+    {
+        margin-left: 50px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .wedding-party .rectangle-3 h4
+    {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+   .table
+   {
+      height: 700px;
+      width: 100%;
+       background-color: darkgoldenrod;
+       margin-top: 100px;
+       background:linear-gradient(rgba(0, 0, 0, 0.834),rgba(10, 10, 10, 0.9)), url(../images/reservation\ \(1\).jpg);
+       background-size: cover;
+      
+      
+   
+        /* background-color: transparent; */
+        
+        
+        border: 12px solid #495057;
+			padding: 35px;
+            /* background-clip: padding-box; */
+   }
+ 
+.table .test h1,p
+{
+    text-align: center;
+}
+.reservation
+
+{
+    background-color:;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+  .reservation input[type="text"]
+  {
+     height: 30px;
+     width: 340px;
+     margin-top:60px;
+     margin-left: 230px;
+     background-color: aqua;
+     border: 2px solid rgb(254, 240, 255);
+  }
+  .reservation input[type="email"]
+  {
+    margin-top: 10px;
+    margin-left:80px;
+    height: 30px;
+    width: 340px;
+    background-color: blanchedalmond;
+  }
+  .reservation-1
+  {
+    display: flex;
+    width: 100%;
+    background-color:;
+  }
+  .reservation-1 input[type="search"]
+  {
+    height: 30px;
+    width: 340px;
+     margin-top: -10px;
+     margin-left: 230px;
+     background-color: aqua;
+     border: 2px solid rgb(254, 240, 255);
+  }
+  .reservation-1 input[type="tel"]
+  {
+    height: 30px;
+    width: 340px;
+    background-color: blanchedalmond;
+    margin-top: -10px;
+    margin-left:83px;
+  }
+  .reservation,.reservation-2
+  {
+    display: flex;
+  }
+  .reservation-2 input[type="text"]
+  {
+    height: 170px;
+    width: 770px;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    margin-left:230px;
+  }
+  .reservation input:focus::placeholder {
+    color: transparent;
+  }
+  .reservation-1 input:focus::placeholder {
+    color: transparent;
+  }
+  .reservation-2 input:focus::placeholder {
+    color: transparent;
+  }
+  .table .confirm
+  {
+    height: 30px;
+    width: 200px;
+    background: linear-gradient(blue,lightblue);
+    border-radius: 10px;
+    margin:40px auto;
+    text-align: center;
+  }
+  .table .confirm a
+  {
+    text-decoration: none;
+  }
+   
+   /* new page */
+   *
+   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .slider-1
+{
+    height:600px;
+
+   width: 100%;
+    margin-top:290px; 
+    background-color:;
+   
+ }
+ .content-1
+ {
+    margin-top: 300px;
+    background-color:;
+ }
+ .content-1 h1
+ {
+    margin-left:50px;
+ }
+ .content-1 p
+ {
+    margin-left:50px;
+ }
+ /* .article-1
+ {
+    background-color: darkcyan;
+    margin-top: 100px;
+    height:auto;
+    width: 100%;
+    display: flex;
+}
+.article-1 h1
+{
+    margin-left: 50px;
+}
+.article-1 .button a
+{
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+    text-decoration: none;
+    margin-right: 30px;
+   
+   
+  
+}
+.article-1 .button 
+{
+    height: auto;
+    width: 50%;
+    background-color: #c931ff;
+}
+.article-1 .button ul
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.article-1 .button ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+.article-1 .button
+{
+   /* height: 100%;
+   width: 100%; */
+    margin-top: 50px;
+    margin-left: 50px;
+    height: auto;
+    width: 50%;
+
+ 
+  
+}
+/* .article-1 .button .primary,.article-1 .button .Success,.article-1 .button .Info,.article-1 .button .warning,.article-1 .button .Danger
+{
+   
+    background-color: #c931ff;
+    color: #fff;
+    font-size: .8em;
+    text-align: center;
+     width: 12.5%;
+    font-weight: 500;
+   
+}
+.article-1 .button .default
+{
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+.article-1 .button a.default
+{
+    padding: 10px 10px;
+}
+.article-1 .button .Link
+{
+    color: #222222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    font-size: .8em;
+    text-align: center;
+     width: 12.5%;
+    font-weight: 500;
+}
+.article-1 .button a.Link
+{
+    padding: 10px 10px;
+    width: 12.5%;
+}
+.article-1 .button .Success
+{
+    background-color:#4cd3e3;
+    width: 12.5%;
+}
+.article-1 .button a.Info
+{
+    background-color:#38a4ff;
+    width: 12.5%;
+}
+.article-1 .button a.warning
+{
+    background-color: #f4e700;
+    border: 1px solid #f4e700;
+    width: 12.5%;
+}
+.article-1 .button a.Disable
+{
+    background-color: #f9f9ff;
+    border: 1px solid transparent;
+    cursor: not-allowed;
+    padding: 15px 15px;
+    width: 12.5%;
+}
+.article-1 .button a.Danger
+{
+    background-color: #f44a40;
+    border: 1px solid #f44a40;
+    width: 12.5%;
+}
+.article-1 .button a.primary,.article-1 .button a.Success,.article-1 .button a.Info,.article-1 .button a.warning,
+.article-1 .button a.Danger
+{
+   
+    padding: 20px 30px;
+  
+    /* height: 200px;
+    width: 200px; */
+}
+/* .article-1 .button-1 a.warning
+{
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+    text-decoration: none;
+    margin-right: 80px;
+   margin-left: -50px;
+   
+  
+}
+.article-1 .button-1
+{
+    height: auto;
+    width: 50%;   
+    background-color: #c931ff;
+    margin-left: -400px;
+}
+.article-1 .button-1 ul
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.article-1 .button-1 ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+.article-1 .button-1
+{
+   /* height: 100%;
+   width: 100%; */
+    /* margin-top: 50px;
+    margin-left: 50px;
+    height: auto;
+   */
+ 
+  
+/* }   */ */ */
+.aside-1
+{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    background-color:;
+}
+.aside-1 .text
+{
+    margin-top: 100px;
+    text-align:left;
+    padding: 20px;
+}
+.aside-1 .write
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color:;
+}
+.aside-2
+{
+    width: 100%;
+    margin-top: 100px;
+    background-color:;
+}
+.aside-2 .write-1
+{
+    display: flex;
+    width: 100%;
+    background-color:;
+}
+.aside-2 .write-1 p
+{
+    width: 70%;
+}
+.aside-2 .write-1 img
+{
+    width: 30%;
+}
+.define
+{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    background-color:;
+    margin-left:0px;
+}
+.define .text-3 h1
+{
+    text-align: left;
+    margin-top: 30px;
+}
+.define .write-2
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.Quote
+{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    background-color:;
+    margin-left: 20px;
+}
+.generic-blockquote
+{
+    padding: 30px 50px 30px 30px;
+    background: #f9f9ff;
+    border-left: 2px solid #c931ff;
+}
+.table-1
+{
+    width: auto;
+    background-color: ;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}
+.table-1 .column
+{
+    height: 40px;
+    width: 80%;
+    border-bottom:2px solid black; 
+    background-color:cadetblue;
+    margin-left: 20px;
+}
+.table-1 .column ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.table-1 .column ul li
+{
+    list-style: none;
+    margin-right: 20px;
+}
+.table-1 .column ul li.fir
+{
+    width: 10%;
+    background-color: rgb(25, 0, 255);
+}
+.table-1 .column ul li.Countries
+{
+    width: 20%;
+    background-color: cornflowerblue;
+}
+.table-1 .column ul li.Visits
+{
+    width: 30%;
+    background-color: chartreuse;
+}
+.table-1 .column ul li.Percentages
+{
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.img-gallery
+{
+    margin-top: 100px;
+    background-color: darkkhaki;
+    height: auto;
+    width: auto;
+}
+.img-gallery h1
+{
+    padding-left: 20px;
+    font-size: 24px;
+}
+.img-gallery .images-4
+{
+    display: flex;
+    
+}
+.img-gallery .images-5
+{
+    display: flex;
+}
+.img-gallery .images-6
+{
+    display: flex;
+}
+ .img-gallery .images-4 img
+{
+    width: 33.33%;
+}
+.img-gallery .images-5 img
+{
+    width: 50%;
+}
+.img-gallery .images-6 img
+{
+    width: 33.33%;
+} 
+.content-2
+{
+    background-color:;
+    width: auto;
+    display: flex;
+    margin-top: 100px;
+}
+.heading-2,.paragraph
+{
+    margin-left: 20px;
+}
+.heading-3,.paragraph-1
+{
+    margin-left: 20px;
+}
+.heading-4,.paragraph-2
+{
+    margin-left: 20px;
+}
+.content-2 .header-3,.header-4,.header-5
+{
+    width: 33.33%;
+    background-color: ;
+}
+.content-2 .header-4 .paragraph-1 ul
+{
+   margin: 0;
+   padding: 0;
+   color: #c931ff;
+}
+.content-2 .header-4 .paragraph-1 ul li
+{
+    list-style-type:circle;
+    color: rgb(255, 0, 123);
+    background-color: #fff;
+   
+}
+.form
+{
+    background-color:;
+    margin-top: 100px;
+    
+    display: flex;
+
+}
+.form .info
+{
+    margin-left: 20px;
+    background-color: chartreuse;
+    width: 60%;
+}
+.form .info input
+{
+    width: 95%;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: #f9f9ff;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.form .info input[type="search"]
+{
+    height: 100px;
+
+}
+.form .tick
+{
+    margin-left: 20px;
+    width: 40%;
+}
+.info input:focus::placeholder {
+    color: transparent;
+  }
